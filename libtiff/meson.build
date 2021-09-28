@@ -53,6 +53,7 @@ tiff4_lib = library('tiff4',
     'tif_write.c',
     'tif_zip.c',
     'tif_zstd.c',
+    install: true,
     platform_src,
     dependencies: cc.find_library('m', required: false),
 )
